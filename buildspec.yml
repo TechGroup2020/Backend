@@ -13,6 +13,5 @@ phases:
       - mvn install
 artifacts:
   files:
-    - techgroup-pipe/SPRING.war
-    - appspec.yml
+    - techgroup-pipe/SPRING.war    
   discard-paths: yes
