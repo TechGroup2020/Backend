@@ -10,8 +10,10 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn install
+      - mvn package
+      - mv target/SPRING.war
 artifacts:
   files:
-    - techgroup-pipe/SPRING.war    
+    - SPRING.war 
+    - .ebextensions/**/*
   discard-paths: yes
