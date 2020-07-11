@@ -13,6 +13,5 @@ phases:
       - mvn package  
 artifacts:
   files:
-    - SPRING.war 
-    - .ebextensions/**/*
+    - '**/*'
   discard-paths: yes
