@@ -13,5 +13,6 @@ phases:
       - mvn clean package
 artifacts:
   files:
-    - '**/*'
+    - target/SPRING.war
+    - appspec.yml
   discard-paths: yes
