@@ -13,5 +13,5 @@ phases:
       - mvn clean install
 artifacts:
   files:
-    - target/SPRING.war
+    - target/SPRING.war   
   discard-paths: yes
