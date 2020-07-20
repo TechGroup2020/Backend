@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: ./SPRING.war
-    destination: /tmp
+    destination: C:\Users\Administrator\Desktop\New folder\G
