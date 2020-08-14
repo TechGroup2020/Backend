@@ -2,4 +2,4 @@ version: 0.0
 os: windows
 files:
   - source: ./SPRING.war
-    destination: C:\Users\custom\
+    destination: C:\Users\custom\new
